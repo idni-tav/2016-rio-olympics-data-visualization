@@ -20,18 +20,43 @@ The analysis focuses on three key areas:
 - **Kaggle Notebook**: Used for documenting the entire analysis process.
 
 ## Visualizations
-The following visualizations were created and combined in a Tableau Story, which can be accessed here: [RioOlympicGames2016](https://public.tableau.com/app/profile/idni.tav/vizzes).
 
-1. **Athlete Demographics:**
-   - 3 Boxplot Charts comparing age, height, and weight across sports and genders.
+## Visualizations
 
-2. **Event Distribution:**
-   - 1 Treemap showcasing the hierarchy of events.
-   - 1 Event Density Map displaying the geographical distribution of events across Rio’s neighborhoods.
+The following visualizations were created and combined in a Tableau Story. The snapshots are displayed below but the full dashboard can be accessed here: [RioOlympicGames2016](https://public.tableau.com/app/profile/idni.tav/vizzes).
 
-3. **Country Performance:**
-   - 3 Bar Charts illustrating the top-performing ranked countries based on: total number of medals, number of medals adjusted for population, and number of medals adjusted for GDP.
-   - 1 Sunburst Plot + Map displaying the top-performing on multiple ranks.
+### 1. Athlete Demographics
+
+- 3 Boxplot Charts comparing age, height, and weight across sports and genders.
+
+<img src="images/age_distribution.png" width="60%">
+
+<img src="images/height_distribution.png" width="60%">
+
+<img src="images/weight_distribution.png" width="60%">
+
+### 2. Event Distribution
+
+- 1 Treemap showcasing the hierarchy of events.
+- 1 Event Density Map displaying the geographical distribution of events across Rio's neighborhoods.
+
+<img src="images/breakdown_events.png" width="60%">
+
+<img src="images/event_density_map.png" width="60%">
+
+
+### 3. Country Performance
+
+- 3 Bar Charts illustrating the top-performing ranked countries based on:
+  - Total number of medals
+  - Number of medals adjusted for population
+  - Number of medals adjusted for GDP
+- 1 Sunburst Plot + Map displaying the top-performing countries across multiple ranks.
+
+
+<img src="images/top_performing.png" width="60%">
+
+<img src="images/sunburst.png" width="60%">
 
 ## Dataset
 The dataset is sourced from [2016 Olympics in Rio de Janeiro](https://www.kaggle.com/datasets/rio2016/olympic-games) and contains data on:
